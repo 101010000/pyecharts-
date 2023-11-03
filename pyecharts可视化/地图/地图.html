@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/china.js"></script>
+
+</head>
+<body >
+    <div id="2547e46e38a6465e9ce386ad8e923ee0" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_2547e46e38a6465e9ce386ad8e923ee0 = echarts.init(
+            document.getElementById('2547e46e38a6465e9ce386ad8e923ee0'), 'white', {renderer: 'canvas'});
+        var option_2547e46e38a6465e9ce386ad8e923ee0 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u6d4b\u8bd5\u5730\u56fe",
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "map": "china",
+            "data": [
+                {
+                    "name": "\u6cb3\u5357\u7701",
+                    "value": 100
+                },
+                {
+                    "name": "\u6e56\u5317\u7701",
+                    "value": 120
+                },
+                {
+                    "name": "\u8d35\u5dde\u7701",
+                    "value": 200
+                },
+                {
+                    "name": "\u5c71\u897f\u7701",
+                    "value": 150
+                },
+                {
+                    "name": "\u7518\u8083\u7701",
+                    "value": 80
+                },
+                {
+                    "name": "\u4e0a\u6d77\u5e02",
+                    "value": 90
+                },
+                {
+                    "name": "\u5317\u4eac\u5e02",
+                    "value": 70
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "zlevel": 0,
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6d4b\u8bd5\u5730\u56fe"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u6d4b\u8bd5\u5730\u56fe",
+            "target": "blank",
+            "subtarget": "blank",
+            "left": "center",
+            "bottom": "1%",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 0,
+                "max": 49,
+                "label": "0-49",
+                "color": "#ff7f50"
+            },
+            {
+                "min": 50,
+                "max": 99,
+                "label": "50-99",
+                "color": "#87cefa"
+            },
+            {
+                "min": 100,
+                "max": 149,
+                "label": "100-149",
+                "color": "#da70d6"
+            },
+            {
+                "min": 150,
+                "max": 199,
+                "label": "150-199",
+                "color": "#32cd32"
+            },
+            {
+                "min": 200,
+                "max": 249,
+                "label": "200-249",
+                "color": "#6495ed"
+            }
+        ]
+    }
+};
+        chart_2547e46e38a6465e9ce386ad8e923ee0.setOption(option_2547e46e38a6465e9ce386ad8e923ee0);
+    </script>
+</body>
+</html>
